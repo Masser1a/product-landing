@@ -7,4 +7,6 @@
 // подключения компонентов страницы
 @import "./components/header";
 
-
+// подключения компонентов страницы (маленькие компоненты)
+@import "./components/nav";
+@import "./components/btn";

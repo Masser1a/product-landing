@@ -1,0 +1,32 @@
+.header {
+  padding: 50px 100px;
+
+
+  &__inner {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__contacts {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    justify-content: space-between;
+
+    &--link {
+      padding: 7px;
+      height: 40px;
+      width: 40px;
+      border-radius: 100%;
+      background-color: #F3FBF8;
+
+      img {
+        height: 24px;
+        width: 24px;
+      }
+    }
+  }
+}
+

@@ -111,3 +111,12 @@ h1 {
   line-height: 90px;
   color: #222222;
 }
+
+p {
+  font-family: 'DM Sans';
+  max-width: 640px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--grey-color);
+}

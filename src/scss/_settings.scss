@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
 .page {
   height: 100%;
   font-family: var(--font-family, sans-serif);
@@ -97,4 +101,13 @@ a {
 
 .page--ios .dis-scroll {
   position: relative;
+}
+
+h1 {
+  font-family: 'Rosario';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
 }

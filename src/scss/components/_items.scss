@@ -1,0 +1,28 @@
+.items {
+  padding-top: 88px;
+  padding-bottom: 143px;
+  background-image: url("../img/fresh.png");
+  background-position: bottom right 100px;
+  background-repeat: no-repeat;
+  background-color: rgba(#09A66D, 0.05);
+
+  &__content {
+    transform: translateY(-50px);
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    max-width: 557px;
+  }
+
+  &__descr {
+    max-width: 574px;
+    margin-bottom: 50px;
+  }
+
+}

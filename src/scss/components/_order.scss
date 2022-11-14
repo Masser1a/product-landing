@@ -1,0 +1,42 @@
+.order {
+  padding-top: 75px;
+  padding-bottom: 140px;
+
+  &__inner {
+    display: flex;
+    justify-content: center;
+    column-gap: 112px;
+  }
+
+  &__content {
+    max-width: 660px;
+  }
+
+  &__span {
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 11px 24px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #333333;
+    max-width: 170px;
+    border-radius: 50px;
+    background-color: #F3FBF8;
+  }
+
+  &__descr {
+    margin-bottom: 50px;
+  }
+
+  &__wrapper img {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+}

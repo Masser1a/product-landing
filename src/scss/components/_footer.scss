@@ -1,0 +1,50 @@
+.footer {
+  padding-top: 66px;
+  padding-bottom: 118px;
+  background-color: #FCFEFD;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    margin-bottom: 30px;
+  }
+
+  &__descr {
+    max-width: 345px;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: var(--dark-color);
+  }
+
+  &__link {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--grey-color);
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 25px;
+    }
+  }
+
+  &__social {
+    display: flex;
+    column-gap: 50px;
+  }
+
+
+}

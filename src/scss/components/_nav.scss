@@ -1,0 +1,16 @@
+.nav {
+  &__list {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  }
+
+  &__link {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--dark-color);
+  }
+
+}

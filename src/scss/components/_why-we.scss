@@ -1,0 +1,64 @@
+.why-we {
+  padding-top: 140px;
+  padding-bottom: 146px;
+  background-image: url("../img/vector.png");
+  background-position: top -40px right 200px;
+  background-repeat: no-repeat;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+.qiality {
+
+  &__card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 40px 60px;
+    max-width: 500px;
+
+    &--dark {
+      background-color: #F3FBF8;
+    }
+  }
+
+  &__icon {
+    margin-right: 44px;
+  }
+
+  &__wrapper {
+    max-width: 277px;
+  }
+
+  &__title {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--dark-color);
+  }
+
+  &__descr {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--grey-color);
+      }
+
+  &__arrow {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
+

@@ -1,0 +1,56 @@
+.header {
+  z-index: 1;
+  padding: 50px 100px;
+
+  &__nav {
+    display: none;
+  }
+
+  @include tablet {
+    padding: 40px 80px;
+  }
+
+  @include mobile {
+    padding: 40px 40px;
+  }
+
+  @include small-mobile {
+    padding: 30px 15px;
+  }
+
+
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__contacts {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    justify-content: space-between;
+
+    &--link {
+      padding: 7px;
+      height: 40px;
+      width: 40px;
+      border-radius: 100%;
+      background-color: #F3FBF8;
+
+      img {
+        height: 24px;
+        width: 24px;
+      }
+    }
+
+    @include mobile {
+      gap: 20px;
+    }
+    @include small-mobile {
+      gap: 5px;
+    }
+  }
+}
+

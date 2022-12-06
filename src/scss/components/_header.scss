@@ -2,6 +2,24 @@
   z-index: 1;
   padding: 50px 100px;
 
+  &__nav {
+    display: none;
+  }
+
+  @include tablet {
+    padding: 40px 80px;
+  }
+
+  @include mobile {
+    padding: 40px 40px;
+  }
+
+  @include small-mobile {
+    padding: 30px 15px;
+  }
+
+
+
   &__inner {
     display: flex;
     align-items: center;
@@ -25,6 +43,13 @@
         height: 24px;
         width: 24px;
       }
+    }
+
+    @include mobile {
+      gap: 20px;
+    }
+    @include small-mobile {
+      gap: 5px;
     }
   }
 }

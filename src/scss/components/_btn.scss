@@ -7,6 +7,11 @@
   color: var(--light-color);
   border-radius: 8px;
   background-color: #09A66D;
+
+  @include small-mobile {
+    padding: 10px 10px;
+    font-size: 14px;
+  }
 }
 
 .link {
